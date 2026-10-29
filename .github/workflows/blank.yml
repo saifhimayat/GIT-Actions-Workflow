@@ -1,0 +1,10 @@
+name: First Learning Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: Print description
+        run: echo "This repository was created for learning and experimenting with GitHub Actions."
